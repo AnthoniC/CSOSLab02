@@ -63,4 +63,14 @@ void* get_bytes(OS_Memory* memory);
  */
 void* pop_bytes(OS_Memory* memory);
 
+/*
+ *
+ */
+void add_element(void* stack_ptr, size_t size, void* ptr);
+
+/*
+ *
+ */
+void remove_element(void* stack_ptr);
+
 #endif /* Memory420_h */
