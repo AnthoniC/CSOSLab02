@@ -1,6 +1,6 @@
 # Lab 2: The Stack
 ### 100 Points
-### Name: 
+### Name: Anthoni Caravello
 
 **Objective:** Create a stack
 
