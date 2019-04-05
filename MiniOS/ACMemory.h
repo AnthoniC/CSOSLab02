@@ -63,8 +63,10 @@ void* get_bytes(OS_Memory* memory);
  */
 void* pop_bytes(OS_Memory* memory);
 
-/*
- *
+/* Adds the overhead information to the list
+ * stack_ptr is the location to put the information
+ * size is the size of the new data
+ * ptr is the pointer to the last element of the stack
  */
 void add_element(void* stack_ptr, size_t size, void** ptr);
 
