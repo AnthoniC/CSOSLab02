@@ -145,8 +145,5 @@ void add_element(void* stack_ptr, size_t size, void** ptr){
     *temp_int = size;
     void* temp_ptr = (void*)(stack_ptr + sizet_size);
     memcpy(temp_ptr, ptr, sizeof(void*));
-    
-    void** thingy = (void**)malloc(sizeof(void*));
-    memcpy(thingy, temp_ptr, sizeof(void*));
 }
 
