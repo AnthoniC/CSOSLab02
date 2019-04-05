@@ -63,8 +63,8 @@
 		87BD28E922038A02001567AB /* MiniOS */ = {
 			isa = PBXGroup;
 			children = (
-				873A20FF22038C2B00492DC5 /* ACMemory.c */,
 				873A20FD22038C2B00492DC5 /* ACMemory.h */,
+				873A20FF22038C2B00492DC5 /* ACMemory.c */,
 				873A20FE22038C2B00492DC5 /* MemoryTests.c */,
 				873A210022038C2B00492DC5 /* MemoryTests.h */,
 				87BD28EA22038A02001567AB /* main.c */,
